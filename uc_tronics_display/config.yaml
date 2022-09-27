@@ -1,0 +1,19 @@
+name: "UCTronics Display"
+description: "UCTronics LCD Display"
+url: "https://github.com/UCTRONICS/UCTRONICS_RM0004_HA/tree/main/uc_tronics_display"
+version: "1.1.2"
+slug: "uc_tronics_display"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+gpio: true
+full_access: true
+devices: 
+  - "/dev/i2c-1"
+privileged: 
+  - "SYS_ADMIN"
+hassio_api: true
