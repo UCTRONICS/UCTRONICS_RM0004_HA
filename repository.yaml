@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Home Assistant add-on repository
+url: 'https://github.com/UCTRONICS/UCTRONICS_RM0004_HA'
+maintainer: arducam <support@arducam.com>
